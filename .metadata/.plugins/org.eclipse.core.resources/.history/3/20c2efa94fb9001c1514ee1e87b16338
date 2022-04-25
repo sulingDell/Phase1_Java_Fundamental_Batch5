@@ -1,0 +1,44 @@
+package com.simplilearn.multithreading;
+
+public class OrganizationThread {
+
+	public static void main(String[] args) {
+		/// create a John thread
+		
+		
+		Mike t2 = new Mike();
+		t2.start();
+		
+		
+		
+		
+
+	}
+	
+	class John extends Thread{
+			public void run() {
+		// thread processing logic
+		System.out.println("John thread is running.");
+	}
+	}
+	
+	class Mike extends Thread{
+		public void run() {
+			System.out.println("Mike thread is running.");
+			
+		}
+	}
+		
+	class Sam extends Thread{
+		public void run() {
+			System.out.println("Sam thread is running");
+		}
+	}
+	
+}
+	
+	
+
+	
+
+

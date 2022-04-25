@@ -1,0 +1,21 @@
+package com.simplilearn.collection.set;
+
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class SetDemo {
+
+	public static void main(String[] args) {
+		// Set is child interface in Collection
+				// Set do not store duplicate values
+				// Implementation class : HashSet , LinkendHashSet, TreeSet.
+		
+		Set<String> set1 =new HashSet<String>();// HashSet allows unique elements + no insertion order preserve
+		Set<String> set2 =new LinkedHashSet<String>();// LinkedHashSet allows unique elements + insertion order preserve.
+		Set<String> set3 =new TreeSet<String>();// TreeSet allows unique elements + order data by asc order.
+
+	}
+
+}

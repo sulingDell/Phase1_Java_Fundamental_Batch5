@@ -1,0 +1,26 @@
+package com.simplilearn.collection.set;
+
+import java.util.TreeSet;
+
+public class TreeSetDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		TreeSet<String> setOfUniqueName = new TreeSet<String>();
+		TreeSet<Integer> numbers = new TreeSet<Integer>();
+		TreeSet<Double> amounts = new TreeSet<Double>();
+		
+		// add values :: sorted set arranged values in asc order
+				setOfUniqueName.add("John");
+				setOfUniqueName.add("Adam");
+				setOfUniqueName.add("Aria");
+				setOfUniqueName.add("David");
+				setOfUniqueName.add("Will");
+				setOfUniqueName.add("Marry");
+				
+
+				System.out.println(setOfUniqueName);
+
+	}
+
+}

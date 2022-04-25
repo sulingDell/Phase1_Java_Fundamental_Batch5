@@ -1,0 +1,10 @@
+package com.simplilearn.collection.set.student;
+
+public class StudentSet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

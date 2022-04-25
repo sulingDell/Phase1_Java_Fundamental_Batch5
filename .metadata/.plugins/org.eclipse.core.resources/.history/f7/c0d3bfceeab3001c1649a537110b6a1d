@@ -1,0 +1,23 @@
+package com.simplilearn.arrays;
+
+import java.util.Arrays;
+
+public class ArrayDemo {
+
+	public static void main(String[] args) {
+		// array syntax
+		int[]numbers=new int [5];
+		
+		//add value in numbers array
+		numbers[0]=10;
+		numbers[1]=-20;
+		numbers[2]=30;
+		numbers[3]=-40;
+		numbers[4]=50;
+		//numbers[5]=60; //ArrayIndexOutOfBoundException
+		
+		//print all arrays
+		System.out.println(Arrays.toString(numbers));
+	}
+
+}
